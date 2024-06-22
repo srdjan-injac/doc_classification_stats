@@ -24,7 +24,7 @@ def set_deal_type(deal_type_vin_id, deal_type_id, deal_type_vin, deal_type_appra
         return "Unknown deal_type"
 
 def download_data(period_start, period_end):
-    # Download Redshift data for creating reports and stats
+    #download Redshift data for creating reports and stats
     period_start = period_start
     period_end = period_end
 
@@ -83,10 +83,10 @@ if __name__ == '__main__':
     sb_report_path = configParser.get('PATHS', 'sb_export_report_path')
 
     # Set start/end dates
-    #period_end = date.today()
-    #period_start = period_end - dt.timedelta(days=7)
-    period_start = '2023-12-13'
-    period_end = '2023-12-20'
+    period_end = date.today()
+    period_start = period_end - dt.timedelta(days=7)
+    #period_start = '2023-12-13'
+    #period_end = '2023-12-20'
 
     # Download data
     #download_data(str(period_start), str(period_end))
