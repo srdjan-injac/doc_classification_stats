@@ -46,7 +46,7 @@ Evaluated patterns in user behavior and system performance, identifying consiste
 
 ## Stats/Visualization Examples
 
-[View PDF](example_stats_visualization/example_monthly_stats.pdf)
+[View PDF](example_stats_visualization/example_historical_stats.pdf)
 
 [View PDF](example_stats_visualization/example_weekly_stats.pdf)
 
