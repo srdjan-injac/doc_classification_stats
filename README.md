@@ -44,6 +44,12 @@ Evaluated patterns in user behavior and system performance, identifying consiste
 
 ---
 
+## Stats/Visualization Examples
+
+![PDF Monthly Stats](example_stats_visualization/example_monthly_stats.pdf)
+
+![PDF Weekly Stats](example_stats_visualization/example_weekly_stats.pdf)
+
 ## Key Technologies
 - **Languages**: Python, SQL
 - **Libraries**: `pandas`, `numpy`, `matplotlib`
